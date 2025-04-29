@@ -1,0 +1,3 @@
+s1={"apple","banana","grape","tangerine"}
+s2={"bare","pineapple","apple","lime"}
+print(s1|s2)
