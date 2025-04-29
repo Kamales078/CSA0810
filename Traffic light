@@ -1,0 +1,7 @@
+c=input("Enter clour of traffic light : ")
+if(c=="Red"):
+    print("STOP")
+elif(c=="Orange"):
+    print("START")
+else:
+    print("Go")
