@@ -1,0 +1,10 @@
+a=int(input("Enter a number : "))
+b=int(input("Enter a number : "))
+c=int(input("Enter a number : "))
+d=b*b-4*a*c
+if(d==0):
+    print("same and real roots")
+elif(d>0):
+    print("Different and Real Roots")
+else:
+    print("Imaginary Roots")
