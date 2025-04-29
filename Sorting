@@ -1,0 +1,7 @@
+lis=[1,2,3,4,5,6,-1,-3,-9]
+lis.sort()
+print(lis)
+lis.sort(reverse=lis)
+print(lis)
+a="1234"
+print(float(a))
