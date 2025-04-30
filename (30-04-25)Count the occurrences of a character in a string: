@@ -1,0 +1,4 @@
+s = input("Enter a string: ")
+ch = input("Enter character to count: ")
+count = s.count(ch)
+print(f"Character '{ch}' occurs {count} times.")
