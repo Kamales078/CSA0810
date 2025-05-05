@@ -1,0 +1,16 @@
+# Exchange
+a, b = 1, 2
+a, b = b, a
+print("Exchanged:", a, b)
+
+# Circulate values of 3 variables
+x, y, z = 1, 2, 3
+x, y, z = z, x, y
+print("Circulated:", x, y, z)
+
+# Distance between two points
+import math
+x1, y1 = 0, 0
+x2, y2 = 3, 4
+distance = math.sqrt((x2 - x1)**2 + (y2 - y1)**2)
+print("Distance:", distance)
