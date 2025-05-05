@@ -1,0 +1,4 @@
+s = "hello world"
+print("Reversed:", s[::-1])
+print("Character count:", len(s))
+print("Replace 'l' with 'x':", s.replace('l', 'x'))
