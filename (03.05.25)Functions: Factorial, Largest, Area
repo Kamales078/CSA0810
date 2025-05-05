@@ -1,0 +1,12 @@
+def factorial(n):
+    result = 1
+    for i in range(2, n+1): result *= i
+    return result
+
+def largest(lst): return max(lst)
+
+def area_circle(radius): return 3.14 * radius * radius
+
+print("Factorial:", factorial(5))
+print("Largest:", largest([1, 5, 2, 9]))
+print("Area of circle:", area_circle(7))
