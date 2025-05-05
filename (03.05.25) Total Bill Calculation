@@ -1,0 +1,7 @@
+items = [
+    {"name": "apple", "price": 10, "quantity": 3},
+    {"name": "banana", "price": 5, "quantity": 6},
+]
+
+total = sum(item["price"] * item["quantity"] for item in items)
+print("Total bill:", total)
