@@ -1,0 +1,5 @@
+data = {'a': 1, 'b': 2, 'c': 1, 'd': 2, 'e': 3}
+frequency = {}
+for value in data.values():
+    frequency[value] = frequency.get(value, 0) + 1
+print("Frequencies:", frequency)
